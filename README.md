@@ -1,4 +1,4 @@
-# Janitri Login UI Automation (Java + Selenium + TestNG + POM)
+# 🧪 Janitri Login UI Automation (Java + Selenium + TestNG + POM)
 
 This project automates the **login page UI** of the [Janitri Dashboard](https://dev-dash.janitri.in/)  
 using **Java, Selenium WebDriver, TestNG, Maven, and the Page Object Model (POM)** design pattern.
@@ -6,51 +6,64 @@ using **Java, Selenium WebDriver, TestNG, Maven, and the Page Object Model (POM)
 ---
 
 ## 🚀 Tech Stack
-- Java 17
-- Selenium 4
-- TestNG
-- Maven
-- WebDriverManager
-- Page Object Model (POM)
+
+- ✅ Java 17  
+- ✅ Selenium WebDriver 4  
+- ✅ TestNG  
+- ✅ Maven (Build & Dependency Management)  
+- ✅ WebDriverManager (for ChromeDriver)  
+- ✅ Page Object Model (POM) Design Pattern  
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 JanitriLoginAutomation/
-├─ pom.xml # Maven dependencies & build config
-├─ testng.xml # TestNG suite runner
-├─ README.md # Project documentation
-└─ src/
-└─ test/
-└─ java/
-├─ base/
-│ └─ BaseTest.java # Browser setup/teardown, ChromeOptions
-├─ pages/
+│
+├── pom.xml # Maven dependencies & configuration
+├── testng.xml # TestNG suite configuration
+├── README.md # Project documentation
+├── TestCases_JanitriLogin.xlsx # Manual test cases
+│
+└── src/
+└── test/
+└── java/
+├── base/
+│ └── BaseTest.java # WebDriver setup/teardown logic
+│
+├── pages/
+│ └── LoginPage.java # Page Object Model for Login Page
+│
+└── tests/
+└── LoginTest.java # TestNG test cases
 
 
 ---
+🧪 Test Coverage
 
-## ⚙️ Setup & Run
+Automated Test Scenarios:
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/<your-username>/JanitriLoginAutomation.git
-cd JanitriLoginAutomation
-mvn clean install
-mvn clean test
+Test Case ID	Description
+TC01	Verify login button is disabled when fields are empty
+TC02	Toggle password visibility (mask/unmask)
+TC03	Show error message on invalid credentials
+TC04	Validate presence of login page UI elements
+TC05	Boundary test with long email input (manual)
 
-│ └─ LoginPage.java # Page Object Model (locators + actions)
-└─ tests/
-└─ LoginTest.java # TestNG test cases
+👉 Check the full list of test cases in the file: TestCases_JanitriLogin.xlsx
 
----
 
-## 🚀 Final Steps
+🧑‍💻 Author
 
-✅ Push everything to GitHub  
-✅ Share the **public link** of your repo when done
+Task 2 - Janitri QA Assignment
+Created with ❤️ using pure Java + Selenium + TestNG (No Cucumber, BDD, etc.)
 
----
+✅ Final Deliverables
 
-Do you want me to generate the `.xlsx` file for you, or would you prefer to create it yourself?
+ Automation framework with Java, Selenium, TestNG, POM
+
+ Manual test cases in Excel format
+
+ Uploaded to GitHub
+
+ Shared public GitHub link
