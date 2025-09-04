@@ -43,3 +43,14 @@ mvn clean test
 │ └─ LoginPage.java # Page Object Model (locators + actions)
 └─ tests/
 └─ LoginTest.java # TestNG test cases
+
+---
+
+## 🚀 Final Steps
+
+✅ Push everything to GitHub  
+✅ Share the **public link** of your repo when done
+
+---
+
+Do you want me to generate the `.xlsx` file for you, or would you prefer to create it yourself?
